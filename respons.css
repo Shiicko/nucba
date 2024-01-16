@@ -1,0 +1,139 @@
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: flex;
+    top: 0px;
+    width: 15%;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    width: 90%;
+    border: 3px solid rgb(58, 2, 37);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: none;
+  }
+
+  nav a {
+    padding: 0;
+  }
+
+  #menu-toggle:checked + .nav-list {
+    display: flex;
+  }
+
+  header img {
+    background-color: rgba(17, 17, 22, 0.438);
+    border-radius: 0;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .seccionUno {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .titulo {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .parrafo {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .animate {
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .harleycard {
+    margin-left: 0px;
+    padding: 10px;
+  }
+
+  .harleycard img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .Card-tittle span {
+    padding: 5px;
+    display: flex;
+    text-align: center;
+  }
+
+  .seccionDos {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .galeria {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .galeria img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .section-info {
+    padding-left: 20px;
+  }
+
+  .Carretera img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .contacto {
+    text-align: center;
+  }
+
+  .formulario-contacto {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .formulario-contacto label,
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .formulario-contacto button {
+    width: 100%;
+  }
+}

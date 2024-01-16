@@ -1,0 +1,15 @@
+/* Consulta de medios para pantallas más pequeñas, ajusta según sea necesario */
+@media screen and (max-width: 768px) {
+  section {
+    max-width: 90%;
+  }
+
+  form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Agrega esta propiedad para centrar el formulario horizontalmente */
+    /* Puedes ajustar otras propiedades de margen según sea necesario */
+  }
+
+  /* Agrega más ajustes según sea necesario para otros elementos en pantallas más pequeñas */
+}
